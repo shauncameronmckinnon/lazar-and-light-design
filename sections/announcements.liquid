@@ -1,0 +1,22 @@
+<div>
+  {% if section.message != blank %}
+    {{ section.message }}
+  {% else %}
+    Welcome to {{ shop.name }}
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Announcement Bar",
+  "limit": 1,
+  "class": "announcement-bar",
+  "settings": [
+    {
+      "type": "text",
+      "id": "message",
+      "label": "Message"
+    }
+  ]
+}
+{% endschema %}
