@@ -2,6 +2,8 @@
   {% if section.message != blank %}
     {{ section.message }}
   {% else %}
+    <script>console.log({{ section.message | json }})</script>
+    <script>console.log({{ section.settings | json }})</script>
     Welcome to {{ shop.name }}
   {% endif %}
 </div>
