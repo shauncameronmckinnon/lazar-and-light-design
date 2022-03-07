@@ -22,3 +22,19 @@
 
 <main>
 </main>
+
+{% schema %}
+{
+  "name": "Announcement Bar",
+  "limit": 1,
+  "class": "announcement-bar",
+  "settings": [
+    {
+      "type": "text",
+      "id": "message",
+      "default": "Welcome to {{ shop.name }}",
+      "label": "Message"
+    }
+  ]
+}
+{% endschema %}
