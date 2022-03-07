@@ -186,7 +186,12 @@
       "main-override": {
         "type": "main-override",
         "settings": {
-          "message": "Welcome to Boorakacha"
+        }
+      },
+      "announcements": {
+        "type": "announcements",
+        "settings": {
+          "message": "Boorakacha"
         }
       }
     },
