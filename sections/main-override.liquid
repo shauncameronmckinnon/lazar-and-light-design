@@ -1,0 +1,24 @@
+<div>
+  {% if section.blocks.size > 0 %}
+    {% for block in section.blocks %}
+      {% if block.type == "announcement" %}
+        {% if block.settings.text != blank %}
+          {{ block.settings.text }}
+        {% else %}
+          Welcome to {{ shop.name }}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    Welcome to {{ shop.name }}
+  {% endif %}
+</div>
+
+<header>
+  <nav>
+    
+  </nav>
+</header>
+
+<main>
+</main>
