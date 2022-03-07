@@ -4,8 +4,8 @@
     "theme_name": "Bye Bye Dawn",
     "theme_version": "1.0.0",
     "theme_author": "Shaun McKinnon",
-    "theme_documentation_url": "https://github.com/shauncameronmckinnon/lazar-and-light-design",
-    "theme_support_url": "https://github.com/shauncameronmckinnon/lazar-and-light-design/issues"
+    "theme_documentation_url": "https:\/\/github.com\/shauncameronmckinnon\/lazar-and-light-design",
+    "theme_support_url": "https:\/\/github.com\/shauncameronmckinnon\/lazar-and-light-design\/issues"
   },
   {
     "name": "t:settings_schema.colors.name",
