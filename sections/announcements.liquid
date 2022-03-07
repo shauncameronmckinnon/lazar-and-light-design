@@ -1,12 +1,19 @@
-<div>
-  {% if section.message != blank %}
-    {{ section.message }}
+<p>
+  {% if section.settings.message != blank %}
+    {{ section.settings.message }}
   {% else %}
-    <script>console.log({{ section.message | json }})</script>
-    <script>console.log({{ section.settings | json }})</script>
     Welcome to {{ shop.name }}
   {% endif %}
-</div>
+</p>
+
+{% stylesheet %}
+.announcement-bar {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+{% endstylesheet %}
 
 {% schema %}
 {
