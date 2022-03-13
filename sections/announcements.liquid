@@ -1,3 +1,13 @@
+{% stylesheet %}
+.announcement-bar {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+{% endstylesheet %}
+
 <p>
   {% if section.settings.message != blank %}
     {{ section.settings.message }}
@@ -5,15 +15,6 @@
     Welcome to {{ shop.name }}
   {% endif %}
 </p>
-
-{% stylesheet %}
-.announcement-bar {
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-{% endstylesheet %}
 
 {% schema %}
 {
