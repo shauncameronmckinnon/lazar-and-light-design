@@ -1,9 +1,16 @@
 {
-  "name": "Template 404",
   "sections": {
     "template": {
-      "type": "template-404"
+      "type": "template-404",
+      "settings": {
+        "title": "404 Not Found",
+        "subtext_title": "This isn't the page you're looking for!",
+        "button_label": "Go home, Homey!",
+        "button_url": ""
+      }
     }
   },
-  "order": ["template"]
+  "order": [
+    "template"
+  ]
 }
