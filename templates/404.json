@@ -3,7 +3,7 @@
     "template": {
       "type": "template-404",
       "settings": {
-        "title": "404 Not Found",
+        "title": "404 Not Found, Homey",
         "subtext_title": "This isn't the page you're looking for!",
         "button_label": "Go home, Homey!",
         "button_url": ""
